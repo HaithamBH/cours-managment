@@ -4,10 +4,15 @@ import com.hichoma.coursManagement.models.Teacher;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
+import javafx.scene.Node;
+import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
+import javafx.stage.Stage;
 
+import java.io.IOException;
 import java.net.URL;
 import java.sql.Connection;
 import java.sql.ResultSet;
@@ -81,6 +86,16 @@ public class TeacherViewController implements Initializable {
         } catch (SQLException exception) {
             System.out.println("teacher find failed");
         }
+    }
+
+    @FXML
+    private void navToSessionView() throws IOException {
+
+    }
+
+    @FXML
+    private void navToStudentView() {
+
     }
 
     private void onRowClick(Teacher row) {
@@ -191,26 +206,23 @@ public class TeacherViewController implements Initializable {
     @FXML
     private void onTeacherDelete() {
         if ( !idField.getText().isEmpty() ) {
-            Statement statement = null;
             try{
-                statement = conn.createStatement();
+                Statement statement = conn.createStatement();
                 String query = String.format(
                         "DELETE FROM teacher WHERE id = %s",
                         idField.getText());
-                int result = statement.executeUpdate(query);
-
-                data.forEach((row) -> {
-                    if (Objects.equals(row.getID(), idField.getText())) {
-                        row.setName(nameField.getText());
-                        row.setContact(contactField.getText());
-                        int i = data.indexOf(row);
-                        data.remove(i);
-                    }
-                });
+                statement.executeUpdate(query);
                 statement.close();
+                for ( int i = 0; i< data.size(); i++){
+                    Teacher row = data.get(i);
+                    if (Objects.equals(row.getID(), idField.getText())) {
+                        data.remove(i);
+                        break;
+                    }
+                }
                 teacherTableView.setItems(data);
             } catch (SQLException exception){
-                System.out.println("update teacher failed");
+                System.out.println("delete teacher failed");
             }
         }
     }
