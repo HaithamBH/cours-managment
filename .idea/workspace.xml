@@ -4,11 +4,44 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ceb4a51-f008-461d-95d8-9f46fc88a2b1" name="Changes" comment="" />
+    <list default="true" id="4ceb4a51-f008-461d-95d8-9f46fc88a2b1" name="Changes" comment="update teacher view controller">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hichoma/coursManagement/ClassController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hichoma/coursManagement/models/Session.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hichoma/coursManagement/models/TableResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/hichoma/coursManagement/classView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hichoma/coursManagement/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hichoma/coursManagement/HelloApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hichoma/coursManagement/SessionViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hichoma/coursManagement/SessionViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hichoma/coursManagement/TeacherViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hichoma/coursManagement/TeacherViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/hichoma/coursManagement/teacherView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/hichoma/coursManagement/teacherView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hichoma/coursManagement/HelloApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hichoma/coursManagement/HelloApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hichoma/coursManagement/HelloController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hichoma/coursManagement/TeacherViewController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hichoma/coursManagement/TeacherViewController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hichoma/coursManagement/hello-view.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hichoma/coursManagement/test.fxml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+      <option value="module" />
+    </option>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -17,40 +50,43 @@
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="2aNcU16T1u1Al2NxYh7HQic42UR" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/hichoma/Dev/cours-management",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/home/hichoma/Dev/cours-management/cours-management/src/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/hichoma/Dev/cours-management&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/home/hichoma/Dev/cours-management/cours-management/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hichoma.coursManagement.HelloApplication" />
       <module name="cours-management" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="cours-management" />
-      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -71,10 +107,115 @@
       <workItem from="1704400143436" duration="4000" />
       <workItem from="1704400160304" duration="21000" />
       <workItem from="1704400183976" duration="112000" />
+      <workItem from="1704400297374" duration="14490000" />
+      <workItem from="1704456430403" duration="513000" />
+      <workItem from="1704475654676" duration="9729000" />
+      <workItem from="1704528205765" duration="2740000" />
     </task>
+    <task id="LOCAL-00001" summary="init commit">
+      <option name="closed" value="true" />
+      <created>1704400378795</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1704400378795</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add teacher model">
+      <option name="closed" value="true" />
+      <created>1704400536492</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1704400536492</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add database class handler">
+      <option name="closed" value="true" />
+      <created>1704400583852</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1704400583852</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add teacher view controller">
+      <option name="closed" value="true" />
+      <created>1704400604629</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1704400604629</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add teacher view">
+      <option name="closed" value="true" />
+      <created>1704400698474</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1704400698474</updated>
+    </task>
+    <task id="LOCAL-00006" summary="delete hello view">
+      <option name="closed" value="true" />
+      <created>1704481046184</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1704481046184</updated>
+    </task>
+    <task id="LOCAL-00007" summary="delete hello controller">
+      <option name="closed" value="true" />
+      <created>1704481073099</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1704481073099</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add session view controller">
+      <option name="closed" value="true" />
+      <created>1704481093465</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1704481093465</updated>
+    </task>
+    <task id="LOCAL-00009" summary="update teacher view controller">
+      <option name="closed" value="true" />
+      <created>1704481116657</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1704481116657</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="init commit" />
+    <MESSAGE value="add teacher model" />
+    <MESSAGE value="add database class handler" />
+    <MESSAGE value="add teacher view controller" />
+    <MESSAGE value="add teacher view" />
+    <MESSAGE value="delete hello view" />
+    <MESSAGE value="delete hello controller" />
+    <MESSAGE value="add session view controller" />
+    <MESSAGE value="update teacher view controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="update teacher view controller" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IllegalAccessException" package="java.lang" />
+          <option name="timeStamp" value="6" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hichoma/coursManagement/ClassController.java</url>
+          <line>182</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
