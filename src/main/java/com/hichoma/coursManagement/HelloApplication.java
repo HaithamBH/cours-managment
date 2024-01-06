@@ -12,7 +12,7 @@ public class HelloApplication extends Application {
     public void start(Stage stage) throws IOException {
         Database database = new Database();
         database.connect();
-        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("teacherView.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("sessionView.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 900, 500);
         stage.setTitle("Teacher manager page");
         stage.setScene(scene);

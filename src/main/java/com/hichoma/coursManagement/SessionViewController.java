@@ -200,13 +200,12 @@ public class SessionViewController implements Initializable {
 
             while(result.next()){
                 //Iterate Row
-                Session row = new Session(
-                        result.getString("className"),
-                        result.getString("matterName"),
-                        result.getString("day"),
-                        result.getString("hour"),
-                        result.getString("teacherId")
-                        );
+                Session row = new Session();
+                row.setClassName(result.getString("className"));
+                row.setMatterName(result.getString("matterName"));
+                row.setDay(result.getString("day"));
+                row.setHour(result.getString("hour"));
+                row.setTeacherID(result.getString("teacherId"));
 
                 //Iterate Column
 
@@ -246,13 +245,12 @@ public class SessionViewController implements Initializable {
                         , dayValue, hourValue, teacherIdValue, matterObj.get().ID, classObj.get().ID);
                 statement.executeUpdate(query);
 
-                Session session = new Session(
-                        classValue,
-                        matterValue,
-                        dayValue,
-                        hourValue,
-                        teacherIdValue
-                );
+                Session session = new Session();
+                session.setClassName(classValue);
+                session.setMatterName(matterValue);
+                session.setDay(dayValue);
+                session.setHour(hourValue);
+                session.setTeacherID(teacherIdValue);
                 data.add(session);
                 sessionTableView.setItems(data);
             } catch (SQLException exception){
@@ -286,13 +284,13 @@ public class SessionViewController implements Initializable {
             data = FXCollections.observableArrayList();
             while(result.next()){
                 //Iterate Row
-                Session row = new Session(
-                        result.getString("className"),
-                        result.getString("matterName"),
-                        result.getString("day"),
-                        result.getString("hour"),
-                        result.getString("teacherId")
-                );
+                Session row = new Session();
+                row.setClassName(result.getString("className"));
+                row.setMatterName(result.getString("matterName"));
+                row.setDay(result.getString("day"));
+                row.setHour(result.getString("hour"));
+                row.setTeacherID(result.getString("teacherId"));
+
 
                 //Iterate Column
 

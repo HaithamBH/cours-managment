@@ -23,6 +23,14 @@ import java.util.ResourceBundle;
 
 public class TeacherViewController implements Initializable {
     @FXML
+    private Button teacherBtn;
+    @FXML
+    private Button sessionBtn;
+    @FXML
+    private Button classesBtn;
+
+
+    @FXML
     private TextField idField;
 
     @FXML
@@ -52,6 +60,30 @@ public class TeacherViewController implements Initializable {
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
+        teacherBtn.setDisable(true);
+
+        sessionBtn.setOnAction(event -> {
+            try {
+                FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("sessionView.fxml"));
+                Scene scene = new Scene(fxmlLoader.load(), 900, 580);
+                Stage stage = (Stage) ((Node) event.getTarget()).getScene().getWindow();
+                stage.setScene(scene);
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+        });
+
+        classesBtn.setOnAction(event -> {
+            try {
+                FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("classView.fxml"));
+                Scene scene = new Scene(fxmlLoader.load(), 900, 580);
+                Stage stage = (Stage) ((Node) event.getTarget()).getScene().getWindow();
+                stage.setScene(scene);
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+        });
+
         Statement statement = null;
         data = FXCollections.observableArrayList();
         teacherTableView.setRowFactory( tv -> {
