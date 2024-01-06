@@ -46,9 +46,9 @@
          <children>
             <AnchorPane prefHeight="40.0" prefWidth="902.0">
                <children>
-                  <Button mnemonicParsing="false" prefHeight="40.0" prefWidth="304.0" text="Teachers" />
-                  <Button layoutX="303.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="297.0" text="Student" />
-                  <Button layoutX="600.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="304.0" text="Sessions" />
+                  <Button fx:id="teacherBtn" mnemonicParsing="false" prefHeight="40.0" prefWidth="304.0" text="Teachers" />
+                  <Button fx:id="classesBtn" layoutX="303.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="297.0" text="Class" />
+                  <Button fx:id="sessionBtn" layoutX="600.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="304.0" text="Sessions" />
                </children>
             </AnchorPane>
             <ButtonBar layoutX="65.0" layoutY="229.0" prefHeight="40.0" prefWidth="207.0" />
